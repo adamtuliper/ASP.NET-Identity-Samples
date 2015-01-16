@@ -1,1 +1,1 @@
-﻿
+﻿If you want to use BeyondCompare (an AWESOME tool) to diff each of these projects to see the required changes, I've kept all namespaces the same between the projects and used this as the base project in every example.
