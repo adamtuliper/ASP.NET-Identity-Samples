@@ -1,0 +1,1 @@
+﻿Will complete shortly (see video online for MVA at http://www.microsoftvirtualacademy.com/training-courses/customizing-asp-net-authentication-with-identity)

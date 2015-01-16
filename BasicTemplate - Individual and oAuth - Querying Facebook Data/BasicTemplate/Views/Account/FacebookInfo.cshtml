@@ -1,0 +1,30 @@
+﻿@model BasicTemplate.Models.FacebookMeInfo
+
+
+<h4>Profile Info</h4>
+<hr />
+@using (Html.BeginForm("NA", "NA", FormMethod.Post, new {@class = "form-horizontal", role = "form"}))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name, new { @class = "col-md-2 control-label"})
+        <div class="col-md-10">
+            @Html.TextBoxFor(o => o.Name, new { @class = "form-control"})
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Locale, new { @class = "col-md-2 control-label"})
+        <div class="col-md-10">
+            @Html.TextBoxFor(o => o.Locale, new { @class = "form-control"})
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.UpdatedTime, new { @class = "col-md-2 control-label"})
+        <div class="col-md-10">
+            @Html.TextBoxFor(o => o.UpdatedTime, new { @class = "form-control"})
+            <br/>
+            <img src="@Model.PictureUrl" />
+        </div>
+    </div>
+
+    
+}

@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EAA44A6B-E677-4BC6-9AB6-68C1C7C62464}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.AspNet.Identity", "RavenDB.ModernMvcStarterKit-master\RavenDB.AspNet.Identity\RavenDB.AspNet.Identity\RavenDB.AspNet.Identity.csproj", "{C147FA58-04F8-4139-9E6E-E3D72F3E30EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDbStarterKit", "RavenDB.ModernMvcStarterKit-master\RavenStarterKit\RavenDbStarterKit.csproj", "{A0C81FFE-D414-40F9-BED1-5A9434FD6B12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Local Auth Raven DB", "Local Auth Raven DB", "{C308A70F-FFB3-4DE1-9CCE-FEB67D1F15AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTemplate - 1a No auth at all - Use this to diff other projects", "Basic Template - No auth\BasicTemplate\BasicTemplate - 1a No auth at all - Use this to diff other projects.csproj", "{C744CB0D-5CD3-4199-89F9-2DE800CAA39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTemplate - 1b Invididual auth - Use to diff other projects", "Basic Template with Individual auth\BasicTemplate\BasicTemplate - 1b Invididual auth - Use to diff other projects.csproj", "{41A86A28-2DBA-4BE5-973D-0B5578A01A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTemplate - Individual and oAuth", "BasicTemplate - oAuth Enabled\BasicTemplate\BasicTemplate - Individual and oAuth.csproj", "{863A1453-2B8D-40D6-9B70-98B25AEF467A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTemplate - Invidiual auth with custom table names", "BasicTemplate - Custom Tables\BasicTemplate\BasicTemplate - Invidiual auth with custom table names.csproj", "{60D66DC3-710C-4C98-AC9A-6F13BFC06C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTemplate - Individual with custom user key (int instead of string)", "BasicTemplate - Change key data type for user table\BasicTemplate\BasicTemplate - Individual with custom user key (int instead of string).csproj", "{45EDF941-AD09-479E-8EA5-554DBCFD7FE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTemplate - Two Factor", "BasicTemplate - Two Factor\BasicTemplate\BasicTemplate - Two Factor.csproj", "{48238D4F-C2B9-4AB6-BD73-046D31BBFF2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTemplate - Email confirmation for acct creation", "BasicTemplate - Email confirmation\BasicTemplate\BasicTemplate - Email confirmation for acct creation.csproj", "{0CC5B23D-F3A2-42D8-ACF8-B0884B8FEF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTemplate - Individual and oAuth - Querying Facebook Data", "BasicTemplate - Individual and oAuth - Querying Facebook Data\BasicTemplate\BasicTemplate - Individual and oAuth - Querying Facebook Data.csproj", "{00D30A10-E6A2-4DEF-8BAF-83EE43933AF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C147FA58-04F8-4139-9E6E-E3D72F3E30EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C147FA58-04F8-4139-9E6E-E3D72F3E30EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C147FA58-04F8-4139-9E6E-E3D72F3E30EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C147FA58-04F8-4139-9E6E-E3D72F3E30EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C81FFE-D414-40F9-BED1-5A9434FD6B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C81FFE-D414-40F9-BED1-5A9434FD6B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C81FFE-D414-40F9-BED1-5A9434FD6B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C81FFE-D414-40F9-BED1-5A9434FD6B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C744CB0D-5CD3-4199-89F9-2DE800CAA39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C744CB0D-5CD3-4199-89F9-2DE800CAA39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C744CB0D-5CD3-4199-89F9-2DE800CAA39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C744CB0D-5CD3-4199-89F9-2DE800CAA39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A86A28-2DBA-4BE5-973D-0B5578A01A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A86A28-2DBA-4BE5-973D-0B5578A01A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A86A28-2DBA-4BE5-973D-0B5578A01A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A86A28-2DBA-4BE5-973D-0B5578A01A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863A1453-2B8D-40D6-9B70-98B25AEF467A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863A1453-2B8D-40D6-9B70-98B25AEF467A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863A1453-2B8D-40D6-9B70-98B25AEF467A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863A1453-2B8D-40D6-9B70-98B25AEF467A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D66DC3-710C-4C98-AC9A-6F13BFC06C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D66DC3-710C-4C98-AC9A-6F13BFC06C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D66DC3-710C-4C98-AC9A-6F13BFC06C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D66DC3-710C-4C98-AC9A-6F13BFC06C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45EDF941-AD09-479E-8EA5-554DBCFD7FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45EDF941-AD09-479E-8EA5-554DBCFD7FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45EDF941-AD09-479E-8EA5-554DBCFD7FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45EDF941-AD09-479E-8EA5-554DBCFD7FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48238D4F-C2B9-4AB6-BD73-046D31BBFF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48238D4F-C2B9-4AB6-BD73-046D31BBFF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48238D4F-C2B9-4AB6-BD73-046D31BBFF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48238D4F-C2B9-4AB6-BD73-046D31BBFF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC5B23D-F3A2-42D8-ACF8-B0884B8FEF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC5B23D-F3A2-42D8-ACF8-B0884B8FEF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC5B23D-F3A2-42D8-ACF8-B0884B8FEF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC5B23D-F3A2-42D8-ACF8-B0884B8FEF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D30A10-E6A2-4DEF-8BAF-83EE43933AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D30A10-E6A2-4DEF-8BAF-83EE43933AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D30A10-E6A2-4DEF-8BAF-83EE43933AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D30A10-E6A2-4DEF-8BAF-83EE43933AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C147FA58-04F8-4139-9E6E-E3D72F3E30EC} = {C308A70F-FFB3-4DE1-9CCE-FEB67D1F15AE}
+		{A0C81FFE-D414-40F9-BED1-5A9434FD6B12} = {C308A70F-FFB3-4DE1-9CCE-FEB67D1F15AE}
+	EndGlobalSection
+EndGlobal
